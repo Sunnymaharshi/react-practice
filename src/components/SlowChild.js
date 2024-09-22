@@ -2,12 +2,13 @@ import React from 'react'
 
 const SlowChild = () => {
 
-    const words = Array.from({length:3000},(_,i)=> "Word")
+    const words = Array.from({length:300},(_,i)=> "Word")
     
   return (
     <div style={{padding:"0 30px"}}>
 
-        <h2> Slow children component</h2>
+        <h2> Slow children component</h2> 
+        <p>(performs an expensive calculation or renders a huge List)</p>
         <div style={{
             display:'flex',
             flexWrap:'wrap',
