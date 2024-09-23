@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Tab = ({num,activeTab,handleClick}) => {
-    console.log(num,activeTab)
   return (
     <div style={{
         background: activeTab===num ? 'blue' : 'grey',
